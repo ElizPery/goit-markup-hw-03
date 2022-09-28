@@ -246,9 +246,14 @@ header {
     margin-right: 30px;
 }
 
+.team-box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .member-name {
-    margin-top: 30px;
     margin-bottom: 10px;
+    margin-top: 0;
 
     color: var(--secondary-text-color);
     font-weight: 500;
@@ -259,8 +264,7 @@ header {
 .member-descr {
     margin-top: 0;
     margin-bottom: 0px;
-    padding-bottom: 30px;
-
+    
     font-size: 16px;
     line-height: 1.19;
 }
@@ -270,14 +274,12 @@ header {
 
 /* Footer */
 
-.footer {
+footer {
     background-color: var(--secondary-bgrc);
-}
-
-.cont-footer {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 
 .logo.footer {
     margin-bottom: 20px;
@@ -295,10 +297,13 @@ header {
     line-height: 1.71;
 }
 
+.footer-list .footer-item + .footer-item {
+    margin-top: 9px;
+}
+
 .footer-mail,
 .footer-tel {
     display: inline-block;
-    margin-top: 9px;
 
    color: rgba(255, 255, 255, 0.6);
    text-decoration: none;
